@@ -1,0 +1,74 @@
+.common{
+    background-color: black;
+    color: white;
+    top:5px;
+    bottom: 5px;
+}
+.title{
+    text-align: center;
+    color:white;
+}
+
+.footer{
+    bottom: 5px;
+    height: 30px;
+    left:5px;
+    right:5px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.header {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 300%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px silver;
+}
+nav {
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    border:5px solid white;
+}
+
+nav ul {
+    display: flex;
+    justify-content:space-between;
+}
+
+nav li {
+    padding: 1em;
+    list-style-type: none;
+}
+
+nav li a {
+    padding:1em 3em;
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    background-color: #cdd1ce;
+    border-radius: 2em;
+}
+
+.a{
+    font-family: cursive;
+    font-size: 20px;
+    background-color: beige;
+        
+}
+
+figcaption {
+  background-color: darkgrey;
+  color: white;
+  font-style: bold;
+  padding: 10px;
+  text-align: left;
+}
